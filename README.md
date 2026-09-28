@@ -45,6 +45,9 @@ Several data issues shaped the analysis and are worth stating plainly:
   <tr><td>Nodes where retiming gives a clear gain</td><td>38 of 40</td><td></td></tr>
 </table>
 
+<img width="1092" height="345" alt="Screenshot 2026-09-28 at 23 27 35" src="https://github.com/user-attachments/assets/0419f44f-ecf9-4fa3-a3d2-e1a22bf6aca7" />
+
+
 ## Success metrics
 
 <table>
@@ -61,25 +64,37 @@ Several data issues shaped the analysis and are worth stating plainly:
 
 Replacing the 2016 plans with Webster optimised timings reduces average control delay from 25.9 to 22.2 seconds per vehicle, a cut of 14.5 percent at current volumes, worth about 2.0 million dollars a year. The benefit is not concentrated in a few problem junctions: 38 of the 40 nodes show a clear gain. For a transport agency, signal retiming is typically one of the lowest cost interventions available, because it changes controller settings rather than physical infrastructure. A saving of this scale from a software change is a strong case for acting on the whole corridor rather than piloting a handful of sites.
 
+<img width="1092" height="345" alt="Screenshot 2026-09-28 at 23 27 35" src="https://github.com/user-attachments/assets/6867210b-6465-4f79-92c6-cb5ac8e8d492" />
+
 ### 2. The value of retiming grows as traffic grows
 
 Delay at signals rises sharply, not steadily, as intersections approach capacity. Under the existing plans, a 20 percent rise in traffic pushes delay from 25.9 to 46.0 seconds per vehicle, an increase of almost 80 percent. Optimised plans absorb the same growth far better, holding delay to 36.3 seconds. The delay reduction therefore widens from 14.5 percent today to 16.3 percent at 10 percent growth and 21.0 percent at 20 percent growth, and the annual saving rises from 2.0 million to 6.3 million dollars. Retiming is best understood not only as a fix for today's congestion but as insurance against tomorrow's, and every year the old plans remain in place the cost of inaction increases.
+
+<img width="754" height="352" alt="Screenshot 2026-09-28 at 23 30 32" src="https://github.com/user-attachments/assets/7981b005-2d2d-43a0-9021-1e4ada6f82bf" />
 
 ### 3. The corridor target is essentially met, and exceeded under realistic growth
 
 The brief targeted a delay reduction of 15 to 22 percent. At current volumes the model delivers 14.5 percent, half a point short of the lower bound, and under 10 and 20 percent growth it delivers 16.3 and 21.0 percent, comfortably within the range. Given that the model represents each intersection conservatively, without coordination between signals, the current volume result is likely a floor rather than a ceiling. Coordinated timing with optimised offsets along the corridor would be expected to add further benefit on top of the isolated intersection gains shown here.
 
+<img width="705" height="381" alt="Screenshot 2026-09-28 at 23 31 31" src="https://github.com/user-attachments/assets/b9823db0-973f-4bf3-a8b7-2e7746892dce" />
+
 ### 4. The 14 million dollar estimate needs a clearer cost basis
 
 To reproduce the brief's figure of 14 million dollars a year from the delay in the extract, the model would require a value of time of about 32.5 dollars per person hour. That is high for personal travel alone, which suggests the city's estimate also includes other costs such as fuel, freight time, emissions or off peak delay. This matters for decision making: savings should be quoted on a basis the finance team and funding bodies will accept. The workbook allows the cost basis to be switched to an agency value of time, so the savings can be restated on whichever basis the city adopts.
+
+<img width="727" height="335" alt="Screenshot 2026-09-28 at 23 33 31" src="https://github.com/user-attachments/assets/92af13b7-49f2-41e5-bc10-3c61f214adbc" />
 
 ### 5. The brief's 18 minute figure measures something different
 
 The 18 minutes of peak hour delay quoted in the brief is an end to end trip delay per commuter, accumulated across the whole journey. The extract records control delay at individual intersections, measured in seconds per vehicle. The two figures are not directly comparable, and this model deliberately does not try to reconcile them. Quantifying the full journey experience would require travel time survey or probe vehicle data.
 
+<img width="1050" height="454" alt="Screenshot 2026-09-28 at 23 35 11" src="https://github.com/user-attachments/assets/68f35b80-8596-438d-8bd6-0547a1810ae6" />
+
 ### 6. Existing records overstate the quality of the data
 
 Two data findings should concern the agency as much as the delay results. Level of service letters contradict recorded delay on 83 percent of records, and records labelled as previously optimised show no improvement at all over the baseline. Either past optimisation work was never implemented as intended, or the labels and grades in the data are unreliable. In both cases, performance reports built on these fields would have painted a misleading picture of corridor health, and this should be investigated before the fields are used again.
+
+<img width="1219" height="340" alt="Screenshot 2026-09-28 at 23 36 30" src="https://github.com/user-attachments/assets/436e5a96-3baf-47c2-8797-f785939410ca" />
 
 ### 7. The calculations are verified and fast enough for daily use
 
